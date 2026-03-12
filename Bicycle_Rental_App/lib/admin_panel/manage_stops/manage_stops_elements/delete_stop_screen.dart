@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'stop.dart'; // Import the Stop class
+import 'stop.dart'; 
 
 class DeleteStopScreen extends StatelessWidget {
   final List<Stop> stops;
@@ -36,3 +36,4 @@ class DeleteStopScreen extends StatelessWidget {
     );
   }
 }
+
