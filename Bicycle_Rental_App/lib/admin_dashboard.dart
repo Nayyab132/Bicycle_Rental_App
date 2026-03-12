@@ -89,7 +89,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         filled: true,
-                        fillColor: Colors.white, // Input field background white
+                        fillColor: Colors.white,
                         contentPadding: const EdgeInsets.symmetric(
                           vertical: 18,
                           horizontal: 15,
@@ -108,7 +108,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       decoration: InputDecoration(
                         labelText: 'Password',
                         labelStyle: const TextStyle(
-                            color: Colors.blue), // Label text blue
+                            color: Colors.blue), 
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),
@@ -123,7 +123,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         filled: true,
-                        fillColor: Colors.white, // Input field background white
+                        fillColor: Colors.white,
                         contentPadding: const EdgeInsets.symmetric(
                           vertical: 18,
                           horizontal: 15,
@@ -140,7 +140,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                     const SizedBox(height: 30),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue, // Button background blue
+                        backgroundColor: Colors.blue, 
                         padding: const EdgeInsets.symmetric(vertical: 18),
                         textStyle: const TextStyle(fontSize: 18),
                         shape: RoundedRectangleBorder(
@@ -150,14 +150,14 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       onPressed: _login,
                       child: const Text('Login',
                           style: TextStyle(
-                              color: Colors.white)), // Button text white
+                              color: Colors.white)),
                     ),
                     if (_errorMessage.isNotEmpty) ...[
                       const SizedBox(height: 20),
                       Text(
                         _errorMessage,
                         style: const TextStyle(
-                            color: Colors.red), // Error message in red
+                            color: Colors.red), 
                       ),
                     ],
                   ],
@@ -170,3 +170,4 @@ class _AdminDashboardState extends State<AdminDashboard> {
     );
   }
 }
+
