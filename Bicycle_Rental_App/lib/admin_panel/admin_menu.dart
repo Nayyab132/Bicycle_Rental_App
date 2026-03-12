@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'manage_stops/manage_stops.dart'; // Update this import path
+import 'manage_stops/manage_stops.dart'; 
 import 'manage_bikes/manage_bikes.dart';
 import 'view_ride_details/view_ride_details.dart';
 import 'view_user_details/view_user_details.dart';
@@ -15,7 +15,7 @@ class AdminMenu extends StatelessWidget {
         backgroundColor: const Color(0xFF9867C5),
       ),
       backgroundColor:
-          const Color.fromARGB(255, 234, 231, 236), // Iris background color
+          const Color.fromARGB(255, 234, 231, 236), 
       body: Padding(
         padding: const EdgeInsets.all(50.0),
         child: Column(
@@ -108,3 +108,4 @@ class AdminMenu extends StatelessWidget {
     );
   }
 }
+
