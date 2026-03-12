@@ -51,7 +51,7 @@ class RegisterPage extends StatelessWidget {
           const SnackBar(content: Text('Registration successful!')),
         );
         Navigator.pop(
-            context); // Go back to sign-in after successful registration
+            context); 
       }
     } on FirebaseAuthException catch (e) {
       if (context.mounted) {
@@ -73,3 +73,4 @@ class RegisterPage extends StatelessWidget {
     }
   }
 }
+
