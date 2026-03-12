@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'register_page.dart'; // Import the RegisterPage
+import 'register_page.dart'; 
 
 class UserDashboard extends StatefulWidget {
   const UserDashboard({super.key});
@@ -138,3 +138,4 @@ class UserDashboardState extends State<UserDashboard> {
     );
   }
 }
+
