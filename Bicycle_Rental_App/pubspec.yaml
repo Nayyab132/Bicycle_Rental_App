@@ -1,5 +1,5 @@
 name: bicycle_rental_app
-description: "A new Flutter project."
+description: "Flutter project."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -10,10 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^3.6.0           # Updated Firebase Core
-  firebase_auth: ^5.3.1            # Updated Firebase Authentication
-  firebase_storage: ^12.3.3         # Added Firebase Storage
-  cloud_firestore: ^5.4.4           # Updated Cloud Firestore
+  firebase_core: ^3.6.0          
+  firebase_auth: ^5.3.1          
+  firebase_storage: ^12.3.3        
+  cloud_firestore: ^5.4.4          
   google_sign_in: ^6.2.1
   logger: ^2.4.0
   cupertino_icons: ^1.0.8
@@ -26,4 +26,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/google_logo.png  # Ensure this line is properly indented
+    - assets/google_logo.png  
+
