@@ -35,11 +35,11 @@ class AddStopScreen extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Handle adding stop logic (you can store it in a state management solution)
+                
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Stop Added')),
                 );
-                // You might want to pop the screen or reset the text fields here
+                
               },
               child: const Text('Add Stop'),
             ),
@@ -49,3 +49,4 @@ class AddStopScreen extends StatelessWidget {
     );
   }
 }
+
