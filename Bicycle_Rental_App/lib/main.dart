@@ -20,7 +20,7 @@ void main() async {
       ),
     );
   } else {
-    await Firebase.initializeApp(); // Use default initialization for mobile
+    await Firebase.initializeApp(); 
   }
   runApp(const MyApp());
 }
@@ -65,13 +65,13 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:
-          Colors.deepPurple, // Background color of the splash screen
+          Colors.deepPurple,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Icon(
-              Icons.bike_scooter, // Use a bike-related icon
+              Icons.bike_scooter, 
               size: 100,
               color: Colors.white,
             ),
@@ -169,4 +169,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
 
