@@ -90,7 +90,7 @@ class ManageBikesScreen extends StatelessWidget {
   }
 }
 
-// Placeholder screens for navigation
+
 class AddBikeScreen extends StatelessWidget {
   const AddBikeScreen({super.key});
 
@@ -156,7 +156,7 @@ class ViewBikesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Sample list of bikes (Replace with your actual data)
+    
     final List<String> bikes = [
       'Bike 1: Mountain Bike',
       'Bike 2: Road Bike',
@@ -189,3 +189,4 @@ class ViewBikesScreen extends StatelessWidget {
     );
   }
 }
+
