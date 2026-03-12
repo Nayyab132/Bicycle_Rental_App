@@ -6,7 +6,7 @@ import 'user_dashboard.dart' as user;
 
 void main() async {
   WidgetsFlutterBinding
-      .ensureInitialized(); // Ensure Flutter binding is initialized
+      .ensureInitialized(); 
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
@@ -169,3 +169,4 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
