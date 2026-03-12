@@ -10,7 +10,7 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: "AIzaSyBqxS5JdNSwCnHi2-jtNlgDTQxQukD_nEk",
+        apiKey: Secrets.googleApiKey,
         authDomain: "an-hourly-bicycle-rental-dfb5c.firebaseapp.com",
         projectId: "an-hourly-bicycle-rental-dfb5c",
         storageBucket: "an-hourly-bicycle-rental-dfb5c.appspot.com",
@@ -169,5 +169,6 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
 
 
